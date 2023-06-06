@@ -1,0 +1,110 @@
+/* This affects the entire body of the webpage */
+body {
+    font-family: Arial, sans-serif; /* This changes the font of the text */
+    background-color: #f0f0f0; /* This changes the background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* This affects all div elements */
+div {
+    width: 80%; /* This changes the width of the divs to 80% of their container's width */
+    margin: auto; /* This centers the divs */
+}
+
+/* This affects all h2 elements */
+h2 {
+    color: #333; /* This changes the color of the h2 text */
+    margin-top: 20px; /* This adds some space above the h2 elements */
+}
+
+/* This affects all h3 elements */
+h3 {
+    color: rgb(0, 119, 255); /* This changes the color of the h3 text */
+}
+
+/* This affects all p (paragraph) elements */
+p {
+    color: #666; /* This changes the color of the paragraph text */
+    line-height: 1.6; /* This changes the spacing between lines of text */
+}
+
+/* This affects all a (link) elements */
+a {
+    color: #0088cc; /* This changes the color of the links */
+    text-decoration: none; /* This removes the underline from the links */
+}
+
+a:hover {
+    color: #005599; /* This changes the color of the links when you hover over them */
+}
+
+/* This affects all img (image) elements */
+img {
+    max-width: 100%; /* This makes images scale down if they have to, but never scale up */
+    height: auto; /* This maintains the aspect ratio of the images */
+}
+
+/* This affects all ul (unordered list) and ol (ordered list) elements */
+ul, ol {
+    padding-left: 20px; /* This adds some space to the left of the list items */
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px; /* adjust for desired space between columns (images) */
+    row-gap: 30px; /* adjust for desired space between rows */
+}
+
+.project-image {
+    width: 400px;  /* adjust as needed */
+    height: 250px; /* adjust as needed */
+}
+
+.hyperlinks {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.hyperlinks .first {
+    margin-left: 700px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    position: relative;
+    right: -650px;  /* This will keep the .navigation 50px from the right edge of the page */
+}
+
+.container {
+    display: flex;
+}
+
+.image img {
+    width: 70%; /* or whatever size you'd like */
+}
+
+.Intro {
+    width: 50%; /* or whatever size you'd like */
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    gap: -100px; /* Adjust this value to increase or decrease space between 'back' and 'front' */
+}
+
+.container2 .back,
+.container2 .front {
+    margin-right: -500px; /* Adjust this value to create space between 'back', 'front' and the right margin */
+}
+
+
