@@ -47,19 +47,19 @@ img {
 
 /* This affects all ul (unordered list) and ol (ordered list) elements */
 ul, ol {
-    padding-left: 20px; /* This adds some space to the left of the list items */
+    padding-left: 20px; 
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 5px; /* adjust for desired space between columns (images) */
-    row-gap: 30px; /* adjust for desired space between rows */
+    column-gap: 5px; 
+    row-gap: 30px; 
 }
 
 .project-image {
-    width: 400px;  /* adjust as needed */
-    height: 250px; /* adjust as needed */
+    width: 200px;  
+    height: 100px; 
 }
 
 .hyperlinks {
